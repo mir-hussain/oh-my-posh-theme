@@ -31,6 +31,8 @@
     },
     {
       "alignment": "right",
+      "overflow": "hide",
+
       "segments": [
         {
           "foreground": "#01F0FF",
@@ -39,22 +41,22 @@
           "type": "text"
         },
         {
-          "foreground": "#F822F8",
-          "properties": {
-            "branch_icon": " \udb81\ude2c "
-          },
+          "foreground": "#01F0FF",
           "style": "plain",
-          "template": " <#01F0FF>git</>{{ .HEAD }}<#01F0FF></>",
-          "type": "git"
+          "template": " git ",
+          "type": "text"
         },
         {
           "foreground": "#F822F8",
+          "properties": {
+            "branch_icon": "\udb81\ude2c "
+          },
           "style": "plain",
-          "template": " \uf119",
-          "type": "exit"
+          "template": "{{ .HEAD }}  ",
+          "type": "git"
         }
       ],
-      "type": "prompt"
+      "type": "rprompt"
     },
     {
       "alignment": "left",
