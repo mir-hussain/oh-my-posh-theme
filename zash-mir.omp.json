@@ -5,19 +5,19 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#01F0FF",
+          "foreground": "#81aaff",
           "style": "plain",
           "template": " {{ .UserName }} ",
           "type": "session"
         },
         {
-          "foreground": "#F822F8",
+          "foreground": "#c892ea",
           "style": "plain",
           "template": "\uea83",
           "type": "text"
         },
         {
-          "foreground": "#F822F8",
+          "foreground": "#c892ea",
           "properties": {
             "style": "folder",
             "folder_icon": ".."
@@ -35,19 +35,19 @@
 
       "segments": [
         {
-          "foreground": "#01F0FF",
+          "foreground": "#81aaff",
           "style": "plain",
           "template": " \ueb00",
           "type": "text"
         },
         {
-          "foreground": "#01F0FF",
+          "foreground": "#81aaff",
           "style": "plain",
           "template": " git ",
           "type": "text"
         },
         {
-          "foreground": "#F822F8",
+          "foreground": "#c892ea",
           "properties": {
             "branch_icon": "\udb81\ude2c "
           },
@@ -63,13 +63,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#01F0FF",
+          "foreground": "#81aaff",
           "style": "plain",
           "template": " \udb85\udfa9",
           "type": "text"
         },
         {
-          "foreground": "#01F0FF",
+          "foreground": "#81aaff",
           "style": "plain",
           "template": " \uf119",
           "type": "exit"
